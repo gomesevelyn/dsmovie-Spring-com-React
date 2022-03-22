@@ -17,7 +17,7 @@ function MovieCard( {movie} : Props) {
                 <MovieScore count={movie.count} score={movie.score}/>
                 
             <Link to={`/form/${movie.id}`}>
-                <div className="btn btn-primary dsmovie-btn">Avaliar</div>
+                <div className="btn btn-primary dsmovie-btn" id="btnAvaliar">Avaliar</div>
             </Link>
             </div>
         </div>
